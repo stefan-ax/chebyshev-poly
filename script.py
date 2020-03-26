@@ -65,7 +65,7 @@ def y(x):
     return Tk_vector.dot(a)[0]
 
 # Plot the solution
-linsp = np.linspace(start=-40, stop=40, num=100)
+linsp = np.linspace(start=-40, stop=40, num=300)
 plt.plot(linsp, [y(x) for x in linsp], c='red')
 
 
